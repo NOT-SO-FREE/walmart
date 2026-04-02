@@ -19,13 +19,13 @@ const steps = [
 },
 {
   icon: Snowflake,
-  text: "Receive your Sam's Club gift card"
+  text: "Receive your Walmart gift card"
 }];
 
 
 const StepsCard = () => {
   return (
-    <div className="relative backdrop-blur-sm rounded-lg mb-2 border shadow-2xl overflow-hidden" style={{ borderColor: 'hsl(205.32deg 100% 33.92%)' }}>
+    <div className="relative backdrop-blur-sm rounded-lg mb-2 border shadow-2xl overflow-hidden" style={{ borderColor: 'hsl(217.96deg 100% 44.31%)' }}>
         <div
           className="absolute inset-0 bg-center bg-no-repeat bg-cover pointer-events-none opacity-10"
           style={{
@@ -37,11 +37,11 @@ const StepsCard = () => {
           const Icon = step.icon;
           return (
             <li key={index} className="flex items-start gap-1.5 text-[11px] md:text-xs">
-                    <span className="flex-shrink-0 w-4 h-4 rounded-full flex items-center justify-center font-bold text-[9px] mt-0.5 text-white" style={{ backgroundColor: 'hsl(205.81deg 98.85% 34.12%)', color: '#ffffff' }}>
+                    <span className="flex-shrink-0 w-4 h-4 rounded-full flex items-center justify-center font-bold text-[9px] mt-0.5 text-white" style={{ backgroundColor: 'hsl(217.96deg 100% 44.31%)', color: '#ffffff' }}>
                       {index + 1}
                     </span>
               <div className="flex items-center gap-1 flex-1">
-                <span className="flex-shrink-0" style={{ color: 'hsl(205.81deg 98.85% 34.12%)' }}>
+                <span className="flex-shrink-0" style={{ color: 'hsl(217.96deg 100% 44.31%)' }}>
                   <Icon className="w-2.5 h-2.5" />
                 </span>
                 <span className="text-black font-medium">{step.text}</span>

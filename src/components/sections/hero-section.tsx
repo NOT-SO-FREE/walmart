@@ -31,9 +31,9 @@ const HeroSection = () => {
           <h1 className="text-lg md:text-xl font-bold mb-1.5 px-2 relative">
             <Star className="w-2.5 h-2.5 text-accent absolute -top-0.5 left-3 animate-pulse" />
             <span className="text-black">Unlock</span>{' '}
-              <span className="inline-flex items-center gap-1" style={{ color: 'hsl(205.81deg 98.85% 34.12%)' }}>
-                Sam's Club Rewards
-                <Gift className="w-4 h-4 inline-block" style={{ color: 'hsl(205.81deg 98.85% 34.12%)' }} />
+              <span className="inline-flex items-center gap-1" style={{ color: 'hsl(217.96deg 100% 44.31%)' }}>
+                Walmart Rewards
+                <Gift className="w-4 h-4 inline-block" style={{ color: 'hsl(217.96deg 100% 44.31%)' }} />
             </span>
             <Snowflake className="w-2.5 h-2.5 text-white/60 absolute -bottom-0.5 right-3 animate-pulse" />
           </h1>
@@ -41,7 +41,7 @@ const HeroSection = () => {
         <p className="text-xs md:text-sm text-black mb-2 font-medium px-2 relative">
           <Sparkles className="w-2.5 h-2.5 text-accent inline-block mr-1 animate-pulse" />
           Here's how to claim your{' '}
-            <span className="font-bold !w-[148px] !h-[17px]" style={{ color: 'hsl(205.81deg 98.85% 34.12%)' }}>$500 Gift Card</span>
+            <span className="font-bold !w-[148px] !h-[17px]" style={{ color: 'hsl(217.96deg 100% 44.31%)' }}>$750 Gift Card</span>
           <Sparkles className="w-2.5 h-2.5 text-accent inline-block ml-1 animate-pulse" />
         </p>
       </div>
