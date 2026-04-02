@@ -10,8 +10,8 @@ export const metadata: Metadata = {
   description: "Unlock Walmart Rewards",
 
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
   },
 };
 
